@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="nova.css">
+    <title>Multas Adorno</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="Images/logo.png">
+                    <h2>Exp<span class="primary">Adorno
+                    </span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active" id="btn-nova">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>Nova</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        edit
+                    </span>
+                    <h3>Edição</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        search
+                    </span>
+                    <h3>Pesquisa</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        view_list
+                    </span>
+                    <h3>Relatorio</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Historico</h3>
+                </a>
+                <a href="index.html" id="btn-analise">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analise</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Usuarios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Siderbar Section -->
+
+        <section>
+            <form class="formulario">
+
+                <h1 class="h1-mot">Motorista</h1>
+                <div class="motorista">
+                    <input placeholder="CONDUTOR" class="campos">
+                    <input placeholder="PLACA" class="campos">
+                </div>
+
+                <h1>Infração</h1>
+                <div class="infracao">
+                    <input placeholder="AUTO N°" class="campos">
+                    <input placeholder="AUTO ORIGINAL" class="campos">
+                    <input placeholder="INFRAÇÃO" class="campos">
+                    <input placeholder="DESCRIÇÃO" class="campos">
+                    <input placeholder="VALOR" class="campos">
+                    <input placeholder="PONTOS" class="campos">
+                    <input placeholder="DATA DA INFRAÇÃO" class="campos">
+                    <input placeholder="HORA DA INFRAÇÃO" class="campos">
+                    <input placeholder="LOCAL" class="campos">
+                    <input placeholder="CIDADE" class="campos">
+                </div>
+
+                <h1>Pagamento</h1>
+                <div class="pagamento">
+                    <input placeholder="VENCIMENTO" class="campos">
+                    <input placeholder="VALOR" class="campos">
+                    <input placeholder="PORCENTAGEM" class="campos">
+                </div>
+
+                <h1>Cliente</h1>
+                <div class="cliente">
+                    <input placeholder="CTE" class="campos">
+                    <input placeholder="OBS" class="campos">
+                </div>
+
+                <h1>Outros</h1>
+                <div class="outros">
+                    <input placeholder="ID" class="campos">
+                    <input placeholder="DATA DO LANÇAMENTO" class="campos">
+                    <input placeholder="DATA RESPOSTA CONDUTOR" class="campos">
+                    <input placeholder="RESPONSABILIDADE" class="campos">
+                    <input placeholder="PRAZO INDICAÇÃO" class="campos">
+                    <input placeholder="DATA POSTAGEM" class="campos">
+                    <input placeholder="TIPO" class="campos">
+                    <input placeholder="CLIENTE" class="campos">
+                </div>
+            </form>
+        </section>
+
+        
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Bruno</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+            <div class="botoes">
+                <div class="botao salvar">
+                    <div>
+                        <span class="material-icons-sharp">
+                            save
+                        </span>
+                        <h3>Salvar</h3>
+                    </div>
+                </div>
+                <div class="botao limpar">
+                    <div>
+                        <span class="material-icons-sharp">
+                            backspace
+                        </span>
+                        <h3>Limpar</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+
+    </div>
+    <script src="nova.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

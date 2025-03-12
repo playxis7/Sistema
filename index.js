@@ -32,3 +32,21 @@ Orders.forEach(order => {
     tr.innerHTML = trContent;
     document.querySelector('table tbody').appendChild(tr);
 });
+
+const AnaliseBtn = document.getElementById('btn-analise');
+const NovaBtn = document.getElementById('btn-nova');
+const linkAtivo = document.querySelector(".active");
+const primeiroLink = document.querySelector(".container a");
+
+
+
+
+document.querySelectorAll(".sidebar a").forEach((botao) => {
+    botao.addEventListener("click", function () {
+        // Remove a classe 'active' de qualquer botão que tenha
+        document.querySelectorAll(".sidebar a.active").forEach((el) => el.classList.remove("active"));
+        
+        // Adiciona a classe 'active' ao botão clicado
+        this.classList.add("active");
+    });
+});
